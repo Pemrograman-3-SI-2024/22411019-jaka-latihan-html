@@ -1,5 +1,65 @@
-.custom-item{
-    display: flex;
-    justify-content: left;
-    color: red;
+.judul1 {
+    color: aqua;}
+
+body{background-color: whitesmoke; margin: 4em; font-family: Arial, Helvetica, sans-serif;font-size: 100%;}
+
+.my-btn{background-color:#0f87e2;
+color: white;
+border-radius: 20px;
+border: none;
+padding: 0.3em 1em;
+cursor: pointer;
+font-weight: bold;
+}
+
+.my-btn2{background: none;
+    color: #0f87e2;
+    border-radius: 20px;
+    border: 0.1em solid;
+    padding: 0.3em 1em;
+    border-color:#0f87e2 ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+:hover .my-btn2{background-color:#0f87e2 ;
+color: white;
+}
+:active .my-btn2{transform: scale(0.9);}
+
+.my-table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: separate;
+    border-radius: 15px;
+    border-spacing: 0;
+    border: 0.5 px solid black;
+}
+
+.my-table td{
+    padding: 1em;
+}
+
+.my-table th{
+    background-color:#0f87e2;
+    color: white;
+    text-align: left;
+    padding: 1em;
+}
+.my-table tr:nth-child(even){
+ background-color: rgb(231, 231, 231);
+}
+
+.my-card{width: 20em;
+    background-color: white;
+}
+
+.my-card .card-content{padding: 1em 1em 0.1em 1em;}
+
+.my-card .card-content .card-title {font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #0f87e2;}
+
+.my-card .card-content .card-title .card-subtitle{
+    font-size: 10px;
 }
